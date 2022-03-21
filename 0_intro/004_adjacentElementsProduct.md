@@ -7,7 +7,7 @@ The input array is gaurenteed to be less than 11 elements, so brute force should
 ## Solutions
 
 ### Python
-```
+```python
 def solution(inputArray):
     max_product = float('-inf')
     for i in range(1, len(inputArray)):
@@ -16,7 +16,7 @@ def solution(inputArray):
 ```
 
 ### JavaScript
-```
+```javascript
 function solution(inputArray) {
     maxProduct = -Infinity;
     for (let i = 1; i < inputArray.length; i++) {
@@ -30,7 +30,7 @@ function solution(inputArray) {
 
 ### C
 No need to deal with type casting. I'll assume the smallest product possible is the minimum possible element * the maximum possible element (since some elements may be < 0>).
-```
+```c
 int solution(arr_integer inputArray) {
     int max_product = -1000 * 1000;
     int this_product;
