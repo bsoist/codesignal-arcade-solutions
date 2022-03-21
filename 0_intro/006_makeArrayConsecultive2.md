@@ -2,9 +2,13 @@
 Ratiorg got statues of different sizes as a present from CodeMaster for his birthday, each statue having an non-negative integer size. Since he likes to make things perfect, he wants to arrange them from smallest to largest so that each statue will be bigger than the previous one exactly by 1. He may need some additional statues to be able to accomplish that. Help him figure out the minimum number of additional statues needed.
 
 ## Notes
-Less than 11 elements in the array so iterating over it several times doesn't seem unreasonable. So, we can just use min and max functions.
+With less than 11 elements, we probably could have ordered these and looked for the missing elements between the min and the max, but I wondered if we might do better. Use the example - `statues = [6, 2, 3, 8]` - I thought maybe just subtracting the min from the max would tell me how many numbers we need in addition to the min.
 
-I'll go ahead and do it the "right way" in the C solution.
+`8 - 2 = 6` means we need six numbers more than the 2. We have 4 and we can add one to account for the min.
+
+`(8 - 6) - 4 + 1`
+
+Less than 11 elements in the array so iterating over it several times doesn't seem unreasonable. So, we can just use min and max functions. I'll go ahead and do it the "right way" in the C solution.
 
 ## Solutions
 
