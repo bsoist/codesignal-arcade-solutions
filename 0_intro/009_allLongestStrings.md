@@ -1,8 +1,8 @@
 # All Longest Strings
 Given an array of strings, return another array containing all of its longest strings.
 
-For inputArray = ["aba", "aa", "ad", "vcd", "aba"], the output should be
-solution(inputArray) = ["aba", "vcd", "aba"].
+For `inputArray = ["aba", "aa", "ad", "vcd", "aba"]`, the output should be
+`solution(inputArray) = ["aba", "vcd", "aba"]`.
 
 ## Notes
 With less than eleven elements in the list, it seems reasonable to just find the max length and then loop again and print the longest ones.
