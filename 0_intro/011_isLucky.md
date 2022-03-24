@@ -13,7 +13,7 @@ We are gauranteed an even number of digits, so no need to fret about floats v. i
 ## Solutions
 
 ### Python
-Easy to convert to a str and so the sums. Iterating over the digits 3+ times, though.
+Easy to convert to a `str` and so the sums. Iterating over the digits 3+ times, though.
 ```python
 def solution(n):
     digits = str(n)

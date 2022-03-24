@@ -1,8 +1,8 @@
 # Sort by Height
 Some people are standing in a row in a park. There are trees between them which cannot be moved. Your task is to rearrange the people by their heights in a non-descending order without moving the trees. People can be very tall!
 
-For a = [-1, 150, 190, 170, -1, -1, 160, 180], the output should be
-solution(a) = [-1, 150, 160, 170, -1, -1, 180, 190].
+For `a = [-1, 150, 190, 170, -1, -1, 160, 180]`, the output should be
+`solution(a) = [-1, 150, 160, 170, -1, -1, 180, 190]`.
 
 ## Notes
 If I make a sorted copy, it will have all the trees at the beginning. Then I can iterate through the sorted version and if I find a person, I can proceed through the unsorted until I find the next non-tree and replace that height.
@@ -48,18 +48,6 @@ function solution(a) {
 
 ### C
 ```c
-// Arrays are already defined with this interface:
-// typedef struct arr_##name {
-//   int size;
-//   type *arr;
-// } arr_##name;
-//
-// arr_##name alloc_arr_##name(int len) {
-//   arr_##name a = {len, len > 0 ? malloc(sizeof(type) * len) : NULL};
-//   return a;
-// }
-//
-//
 arr_integer solution(arr_integer a) {
     int compare( const void* a, const void* b)
     {
