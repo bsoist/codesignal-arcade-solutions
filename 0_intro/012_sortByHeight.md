@@ -55,11 +55,13 @@ arr_integer solution(arr_integer a) {
         if ( *(int*)a == *(int*)b ) return 0;
         if ( *(int*)a >  *(int*)b ) return 1;
     }
+
     // make a copy
     int sorted_heights[a.size];
     for (int i = 0; i < a.size; i++) {
         sorted_heights[i] = a.arr[i];
     }
+
     // sort the copy
     qsort(sorted_heights, a.size, sizeof(int), compare);
     int i = 0;
