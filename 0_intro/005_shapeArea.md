@@ -1,3 +1,5 @@
+Be sure to [attempt this problem](https://github.com/bsoist/codesignal-arcade-solutions) on your own before looking at the solutiosn below.
+
 # Shape Area
 Below we will define an n-interesting polygon. Your task is to find the area of a polygon for a given n.
 

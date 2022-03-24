@@ -1,3 +1,5 @@
+Be sure to [attempt this problem](https://github.com/bsoist/codesignal-arcade-solutions) on your own before looking at the solutiosn below.
+
 # Adjacent Elements Product 
 Given an array of integers, find the pair of adjacent elements that has the largest product and return that product.
 
