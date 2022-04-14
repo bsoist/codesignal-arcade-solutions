@@ -2,6 +2,10 @@ Be sure to [attempt this problem](https://github.com/bsoist/codesignal-arcade-so
 
 # Array Replace
 
+Given an array of integers, replace all the occurrences of `elemToReplace` with `substitutionElem`.
+
+For `inputArray = [1, 2, 1]`, `elemToReplace = 1`, and `substitutionElem = 3`, the output should be `solution(inputArray, elemToReplace, substitutionElem) = [3, 2, 3]`.
+
 ## Notes
 
 ## Solutions
